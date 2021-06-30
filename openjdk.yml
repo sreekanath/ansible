@@ -1,0 +1,8 @@
+--- # install openjdk-8-jdk
+- hosts: all
+  user: ansible
+  become: yes
+  connection: ssh
+  gather_facts: yes
+  roles :
+      - role: openjdk-8-jdk
