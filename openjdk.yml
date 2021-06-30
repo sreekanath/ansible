@@ -1,6 +1,6 @@
 --- # install openjdk-8-jdk
 - hosts: all
-  user: ansible
+  user: ubuntu
   become: yes
   connection: ssh
   gather_facts: yes
